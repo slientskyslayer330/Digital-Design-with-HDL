@@ -2,7 +2,7 @@
 # Exam Prepartation for VHDL
 
 
-# I will list some importnant note here.
+ I will list some importnant note here.
 # In VHDL, It is *CaSe-InSeNiTiVe*
 # -- Standard Format for VHDL files are 
 
@@ -46,12 +46,12 @@ interger is assigned by without quoted format: i.e. 4,8,315.
 # SIGNAL signal_name : type_name ;  
 BIT, (not used)
 BIT_VECTOR, (not used)
-# STD_LOGIC,
-# STD_LOGIC_VECTOR, 
+ STD_LOGIC,
+ STD_LOGIC_VECTOR, 
 STD_ULOGIC, (not used)
-# SIGNED,
-# UNSIGNED,
-# INTEGER,
+ SIGNED,
+ UNSIGNED,
+ INTEGER,
 ENUMERATION,(not used)
 and BOOLEAN.(not used)
 
