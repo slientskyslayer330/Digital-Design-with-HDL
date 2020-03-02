@@ -1,10 +1,10 @@
 # Digital-Design-with-HDL
-Exam Prepartation for VHDL
+# Exam Prepartation for VHDL
 
 
-I will list some importnant note here.
-In VHDL, It is *CaSe-InSeNiTiVe*
--- Standard Format for VHDL files are 
+# I will list some importnant note here.
+# In VHDL, It is *CaSe-InSeNiTiVe*
+# -- Standard Format for VHDL files are 
 
 Library IEEE;
 USE IEE.STD_LOGIC_1164.ALL;
@@ -31,12 +31,28 @@ BEGIN
     --INSERT YOUR FUNCTION HERE--
 END BEHAVIORAL;
 
--- Entiity--
+-- Entiity variable --
 
-in , out, inout , buffer ( the last two dont use)
+in , out, inout , buffer ( the last two dont use).
 
---assigning format--
+# --assigning format--
 
-1 bit is assigned by single quoted format: i.e. '0','1'
-multibit is assigned by double quoted format: i.e. "0000", "001"
-interger is assigned by without quoted format: i.e. 4,8,315
+1 bit is assigned by single quoted format: i.e. '0','1'.
+multibit is assigned by double quoted format: i.e. "0000", "001".
+interger is assigned by without quoted format: i.e. 4,8,315.
+
+# --Signal format and types--
+
+# SIGNAL signal_name : type_name ;  
+BIT, (not used)
+BIT_VECTOR, (not used)
+# STD_LOGIC,
+# STD_LOGIC_VECTOR, 
+STD_ULOGIC, (not used)
+# SIGNED,
+# UNSIGNED,
+# INTEGER,
+ENUMERATION,(not used)
+and BOOLEAN.(not used)
+
+# -- VHDL Operators--
