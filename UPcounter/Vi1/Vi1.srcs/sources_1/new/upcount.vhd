@@ -20,11 +20,13 @@ begin
     begin
         if Resetn = '0' then
             count <= "0000" ;
-        elsif rising_edge (Clock) then
-            if E102 = '1' then
-                Count  <= Count + 1;
-            else
-                Count <= Count;
+        else 
+            if rising_edge (Clock) then
+                if E102 = '1' then
+                    Count  <= Count + 1;
+                else
+                    Count <= Count;
+                end if;
             end if; 
         end if;            
     end process;

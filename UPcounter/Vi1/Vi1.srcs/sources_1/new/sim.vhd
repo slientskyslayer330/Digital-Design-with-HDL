@@ -35,7 +35,7 @@ end process;
 process 
 begin
     Resetn <= '0'; wait for 20 ns;
-    Resetn <= '1';
+    Resetn <= '1';wait for 100ns;
 end process;
 process
 begin

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vi27_2/Shiki/Shiki.srcs/sources_1/new/clk_divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_divider
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vi27_2/Shiki/Shiki.srcs/sources_1/new/sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sim

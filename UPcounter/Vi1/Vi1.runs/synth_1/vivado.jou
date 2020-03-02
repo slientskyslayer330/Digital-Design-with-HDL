@@ -2,8 +2,8 @@
 # Vivado v2015.4 (64-bit)
 # SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
 # IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
-# Start of session at: Mon Mar 02 16:13:30 2020
-# Process ID: 4120
+# Start of session at: Mon Mar 02 16:19:00 2020
+# Process ID: 4332
 # Current directory: D:/VHDL/Digital-Design-with-HDL/UPcounter/Vi1/Vi1.runs/synth_1
 # Command line: vivado.exe -log sim.vds -mode batch -messageDb vivado.pb -notrace -source sim.tcl
 # Log file: D:/VHDL/Digital-Design-with-HDL/UPcounter/Vi1/Vi1.runs/synth_1/sim.vds

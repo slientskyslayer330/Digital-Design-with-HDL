@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Feb 27 16:03:00 2020
+# Process ID: 7828
+# Current directory: D:/Vi27_2/SHIKI_VOID/SHIKI_VOID.runs/impl_1
+# Command line: vivado.exe -log Main.vdi -applog -messageDb vivado.pb -mode batch -source Main.tcl -notrace
+# Log file: D:/Vi27_2/SHIKI_VOID/SHIKI_VOID.runs/impl_1/Main.vdi
+# Journal file: D:/Vi27_2/SHIKI_VOID/SHIKI_VOID.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Main.tcl -notrace
