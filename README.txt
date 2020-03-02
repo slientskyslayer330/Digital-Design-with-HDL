@@ -188,3 +188,81 @@ Variable<= value WHEN Conditioning_statement ELSE value;
 For example,
 f <= '1' WHEN  x=y  ELSE '0';
 
+# -- sequential assigningstatements--
+two types 
+1. if-then-else statements
+2. case statements
+
+# need process to use both types
+PROCESS( input variables)
+  BEGIN
+   *INSERT YOUR STATEMENT HERE*
+END PROCESS:   
+
+# IF-ELSE statement Example
+PROCESS (w0, w1, s )
+  BEGIN
+	     IF S='1' THEN
+         F <= W0;
+      ELSE
+         F <= W1;
+      END IF;--dont forget this----
+ENDPROCESS;
+
+# IF-ELSIF-ELSE Statement example
+PROCESS (w0, w1, s )
+BEGIN
+	IF    S="00" THEN
+    F <= W0;
+ ELSIF S="01" THEN
+    F <= W1;
+	ELSIF S="10" THEN
+    F <= W2;
+	ELSE 
+    F<= W3;
+ ENDIF; ---dont forget this---
+ENDPROCESS ;
+
+# Case statement example
+case INT_A is --A is integer--
+  when 0      =>  Z <= A; 
+  when 1 to 3 =>  Z <= B; --when A is 1 to 3--
+  when 4|6|8  =>  Z <= C; --when A is 4,6,8 --
+  when others =>  Z <= '0';
+end case;
+
+# --7-segment 4bit code--
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+entity HextoDec is
+Port 
+(
+    p :in STD_LOGIC_VECTOR (3 downto 0);
+    s :out STD_LOGIC_VECTOR (6 downto 0);
+    an:out std_logic_vector (7 downto 0)
+);
+end HextoDec;
+architecture Behavioral of HextoDec is
+begin
+with p select 
+s <=   "1000000" when "0000" , 
+       "1111001" when "0001" ,
+       "0100100" when "0010" ,
+       "0110000" when "0011" ,
+       "0011001" when "0100" ,
+       "0010010" when "0101" ,
+       "0000010" when "0110" ,
+       "1111000" when "0111" ,
+       "0000000" when "1000" ,
+       "0010000" when "1001" ,
+       "0100000" when "1010" ,
+       "0000011" when "1011" ,
+       "1000110" when "1100" ,
+       "0100001" when "1101" ,
+       "0000110" when "1110" ,
+       "0001110" when "1111" ;
+an <=  "11111110";
+end Behavioral;
+
+# --Slide-4 end here--
+
