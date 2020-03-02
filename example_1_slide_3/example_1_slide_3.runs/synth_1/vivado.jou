@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon Mar 02 11:48:26 2020
+# Process ID: 18232
+# Current directory: D:/VHDL/Digital-Design-with-HDL/example_1_slide_3/example_1_slide_3.runs/synth_1
+# Command line: vivado.exe -log eg2.vds -mode batch -messageDb vivado.pb -notrace -source eg2.tcl
+# Log file: D:/VHDL/Digital-Design-with-HDL/example_1_slide_3/example_1_slide_3.runs/synth_1/eg2.vds
+# Journal file: D:/VHDL/Digital-Design-with-HDL/example_1_slide_3/example_1_slide_3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source eg2.tcl -notrace
