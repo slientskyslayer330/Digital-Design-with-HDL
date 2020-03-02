@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon Mar 02 16:04:48 2020
+# Process ID: 12056
+# Current directory: D:/VHDL/Digital-Design-with-HDL/clk_div/clk_div.runs/synth_1
+# Command line: vivado.exe -log cld_div.vds -mode batch -messageDb vivado.pb -notrace -source cld_div.tcl
+# Log file: D:/VHDL/Digital-Design-with-HDL/clk_div/clk_div.runs/synth_1/cld_div.vds
+# Journal file: D:/VHDL/Digital-Design-with-HDL/clk_div/clk_div.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source cld_div.tcl -notrace

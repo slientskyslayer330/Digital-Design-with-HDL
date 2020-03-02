@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/VHDL/Digital-Design-with-HDL/UPcounter/Vi1/Vi1.srcs/sources_1/new/upcount.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity upcount
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/VHDL/Digital-Design-with-HDL/UPcounter/Vi1/Vi1.srcs/sources_1/new/sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sim
