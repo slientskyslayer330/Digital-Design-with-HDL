@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Mar 05 14:18:32 2020
+# Process ID: 10864
+# Current directory: D:/VHDL/Digital-Design-with-HDL/tutoMarch_11_16_26/tutoMarch_11_16_26.runs/impl_1
+# Command line: vivado.exe -log main.vdi -applog -messageDb vivado.pb -mode batch -source main.tcl -notrace
+# Log file: D:/VHDL/Digital-Design-with-HDL/tutoMarch_11_16_26/tutoMarch_11_16_26.runs/impl_1/main.vdi
+# Journal file: D:/VHDL/Digital-Design-with-HDL/tutoMarch_11_16_26/tutoMarch_11_16_26.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace

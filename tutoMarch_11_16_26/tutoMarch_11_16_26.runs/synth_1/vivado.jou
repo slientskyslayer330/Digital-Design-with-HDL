@@ -2,8 +2,8 @@
 # Vivado v2015.4 (64-bit)
 # SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
 # IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
-# Start of session at: Thu Mar 05 14:14:32 2020
-# Process ID: 1356
+# Start of session at: Thu Mar 05 14:17:50 2020
+# Process ID: 13388
 # Current directory: D:/VHDL/Digital-Design-with-HDL/tutoMarch_11_16_26/tutoMarch_11_16_26.runs/synth_1
 # Command line: vivado.exe -log main.vds -mode batch -messageDb vivado.pb -notrace -source main.tcl
 # Log file: D:/VHDL/Digital-Design-with-HDL/tutoMarch_11_16_26/tutoMarch_11_16_26.runs/synth_1/main.vds

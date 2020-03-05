@@ -8,8 +8,8 @@ entity main is
 ( 
     clk_100M : in  STD_LOGIC;
     load     : IN  STD_LOGIC;
-    a        : IN  STD_LOGIC_VECTOR (7 downto 0);
-    led      : OUT STD_LOGIC_VECTOR (7 downto 0)
+    a        : IN  STD_LOGIC_VECTOR (2 downto 0);
+    led      : OUT STD_LOGIC_VECTOR (2 downto 0)
 );
 end main;
 
@@ -26,10 +26,10 @@ architecture Behavioral of main is
     component shift_right is
         Port 
         ( 
-               a: IN  STD_LOGIC_VECTOR (7 downto 0);
+               a: IN  STD_LOGIC_VECTOR (2 downto 0);
             load: IN  STD_LOGIC;
           clk0_5: IN  STD_LOGIC;
-             led: OUT STD_LOGIC_VECTOR (7 downto 0)
+             led: OUT STD_LOGIC_VECTOR (2 downto 0)
         );
       end component;
 begin

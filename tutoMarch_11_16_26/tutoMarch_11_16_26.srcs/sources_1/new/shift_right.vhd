@@ -35,15 +35,15 @@ use IEEE.NUMERIC_STD.all;
 entity shift_right is
  Port 
  (
-     a: IN  STD_LOGIC_VECTOR (7 downto 0);
+     a: IN  STD_LOGIC_VECTOR (2 downto 0);
       load: IN  STD_LOGIC;
     clk0_5: IN  STD_LOGIC;
-       led: OUT STD_LOGIC_VECTOR (7 downto 0)
+       led: OUT STD_LOGIC_VECTOR (2 downto 0)
   );
 end shift_right;
 
 architecture Behavioral of shift_right is
-signal w: STD_LOGIC_VECTOR ( 7 downto 0);
+signal w: STD_LOGIC_VECTOR ( 2 downto 0);
 
 begin
     process(clk0_5,load,a)
@@ -52,7 +52,7 @@ begin
             if load ='1' then 
                 w <= a;
             else 
-                w <= '0' & a (7 downto 1);
+                w <= '0' & a (2 downto 1);
             end if;
          
 
